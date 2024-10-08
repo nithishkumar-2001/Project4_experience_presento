@@ -237,11 +237,11 @@ body {
 
 .form label .input:focus+span,
 .form label .input:valid+span {
-    font-weight: 600;
+    font-weight: 200;
 }
 
 .form label .input:valid+span {
-    color: green;
+    color: black;
 }
 
 .input01 {
@@ -268,40 +268,29 @@ body {
 
 .form label .input01:focus+span,
 .form label .input01:valid+span {
-    font-weight: 600;
+    font-weight: 200;
 }
 
 .form label .input01:valid+span {
-    color: green;
+    color: black;
 }
 
 .fancy {
-    background-color: white;
+    background-color:rgba(243, 161, 8, 0.856);
     border: 2px solid #355891;
     border-radius: 0px;
     box-sizing: border-box;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 390;
-    letter-spacing: 2px;
-    margin: 0;
-    outline: none;
+    cursor: no-drop !important;
     overflow: visible;
     padding: 8px 30px;
     position: relative;
     text-align: center;
     text-decoration: none;
-    text-transform: none;
-    transition: all 0.3s ease-in-out;
-    user-select: none;
     font-size: 13px;
 }
 
 .fancy .text {
     font-size: 1.125em;
-    line-height: 1.33333em;
-    padding-left: 2em;
-    display: block;
     text-align: left;
     transition: all 0.3s ease-in-out;
     text-transform: lowercase;
@@ -311,7 +300,7 @@ body {
 
 
 .fancy:hover {
-    color: #355891;
+    color: #186aee;
     background: #5f82a9;
 }
 
